@@ -40,7 +40,7 @@ a:visited {
 
 h1 {
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     font-size: 38px;
 }
 
@@ -52,6 +52,7 @@ h2 {
     flex: 1 1 auto;
     margin-bottom: 20px;
 }
+
 #hero-image img {
     width: 100%;
     min-width: 450px;
@@ -60,7 +61,6 @@ h2 {
 
 #hero {
     display: flex;
-    text-align: justify;
     align-items: center;
     gap: 25px;
     padding: 50px;
@@ -73,7 +73,7 @@ h2 {
 }
 
 #hero-content p {
-    margin: 0 20px 20px 0;
+    margin-right: 20px;
 }
 
 button {
@@ -87,15 +87,14 @@ button {
 
 #section-two {
     display: flex;
-    padding: 0 50px 0 50px;
+    padding: 0 50px;
     gap: 10px;
 }
 
 .image-item {
     flex: 1 1 20%;
-    box-sizing: border-box;
     padding: 10px;
-    margin: 0 5px 20px 5px;
+    margin: 0 5px 20px;
     font-size: 22px;
 }
 
@@ -108,7 +107,7 @@ button {
 #section-three {
     background-color: #e6e7eb6e;
     font-size: 28px;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
     margin-bottom: 20px;
 }
 
@@ -131,6 +130,6 @@ button {
 
 footer {
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     font-size: 22px;
 }
